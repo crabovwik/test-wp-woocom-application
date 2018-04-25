@@ -1,0 +1,24 @@
+/*
+Theme Name:     Twenty Seventeen Child
+Theme URI:      http://test-wp-woocom-application.com/
+Description:    Дочерняя тема для темы Twenty Seventeen
+Author:         Egor Kokorin
+Author URI:     http://egor.sh/
+Template:       twentyseventeen
+Version:        0.1.0
+*/
+
+@import url("../twentyseventeen/style.css");
+
+.search-form .search-submit {
+	background-color: lime;
+	border: 1px solid black;
+}
+
+.search-form .search-submit:hover {
+	background-color: lawngreen;
+}
+
+.search-form .search-submit:active {
+	background-color: black;
+}
