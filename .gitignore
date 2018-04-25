@@ -5,23 +5,3 @@ docker/data/logs/nginx/*.log
 
 # Composer vendor folder
 app/vendor
-
-# Wordpress (https://github.com/github/gitignore/blob/master/WordPress.gitignore)
-*.log
-app/wordpress/wp-config.php
-app/wordpress/wp-content/advanced-cache.php
-app/wordpress/wp-content/backup-db/
-app/wordpress/wp-content/backups/
-app/wordpress/wp-content/blogs.dir/
-app/wordpress/wp-content/cache/
-app/wordpress/wp-content/upgrade/
-app/wordpress/wp-content/uploads/
-app/wordpress/wp-content/mu-plugins/
-app/wordpress/wp-content/wp-cache-config.php
-app/wordpress/wp-content/plugins/hello.php
-
-app/wordpress/.htaccess
-app/wordpress/license.txt
-app/wordpress/readme.html
-app/wordpress/sitemap.xml
-app/wordpress/sitemap.xml.gz
