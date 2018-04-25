@@ -54,3 +54,10 @@ Password: 1234 / 123
 ```
 
 -----
+
+###Admin page account:
+```text
+Email: crabovwik@yandex.ru
+Login: crabovwik
+Password; 1234567
+```
