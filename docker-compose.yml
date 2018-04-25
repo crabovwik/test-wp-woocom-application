@@ -23,6 +23,9 @@ services:
           - 9000
         volumes:
             - "./app:/var/www"
+        environment:
+          XDEBUG_CONFIG: "remote_host=192.168.88.254"
+          PHP_IDE_CONFIG: "serverName=test-wp-woocom-application.com"
 
     docker_mysql:
         restart: always

@@ -34,8 +34,10 @@ RUN set -ex \
         php7-ctype@testing \
         php7-pgsql@testing \
         php7-pdo_pgsql@testing \
+        php7-pdo_mysql@testing \
         php7-mbstring@testing \
         php7-xdebug@testing \
+        php7-tokenizer@testing \
         bash \
         rsync \
     && sed -i -e "s/;daemonize\s*=\s*yes/daemonize = no/g" /etc/php7/php-fpm.conf \
@@ -55,8 +57,9 @@ RUN set -ex \
     && apk del tzdata \
     && rm -rf /var/cache/apk/*
 
-RUN echo "[xdebug]" >> /etc/php7/php.ini
-RUN echo "xdebug.remote_enable=1" >> /etc/php7/php.ini
+RUN echo "zend_extension=xdebug.so" > /etc/php7/conf.d/xdebug.ini
+RUN echo "xdebug.remote_enable=1" >> /etc/php7/conf.d/xdebug.ini
+RUN echo "xdebug.remote_port=9001" >> /etc/php7/conf.d/xdebug.ini
 
 COPY . /usr/src/app
 
