@@ -1,0 +1,7 @@
+.idea
+
+# NGINX Logs
+docker/data/logs/nginx/*.log
+
+# Composer vendor folder
+app/vendor

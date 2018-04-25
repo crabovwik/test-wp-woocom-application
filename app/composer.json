@@ -1,0 +1,15 @@
+{
+    "name": "crabovwik/test-wp-woocom-application",
+    "description": "Test application for dudes from Upwork",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Egor Kokorin",
+            "email": "crabovwik@yandex.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.2"
+    }
+}
