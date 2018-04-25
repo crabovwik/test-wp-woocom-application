@@ -1,29 +1,29 @@
-#Application was made for dudes from Upwork
+# Application was made for dudes from Upwork
 
 -----
 
-##Usage:
+## Usage:
 
-###Environment settings stored in .env file
-
------
-
-###Application will be available at localhost:80
+### Environment settings stored in .env file
 
 -----
 
-###Start:
+### Application will be available at localhost:80
+
+-----
+
+### Start:
 ```text
 $ docker-compose up -d --build
 ```
 
-###Stop:
+### Stop:
 ```text
 $ docker-compose down
 ```
 -----
 
-###Connect to container:
+### Connect to container:
 ```text
 # The first: get container ID
 $ docker ps -a
@@ -37,15 +37,15 @@ $ docker exec -it /bin/sh <container_id>
 
 -----
 
-###Logs stored at `./docker/data/logs`
+### Logs stored at `./docker/data/logs`
 
 -----
 
-###Database stored at `./docker/data/db/mysql/data`
+### Database stored at `./docker/data/db/mysql/data`
 
 -----
 
-###Adminer accessible at `localhost/adminer`
+### Adminer accessible at `localhost/adminer`
 ```text
 Server: docker_mysql
 Username: root / user
@@ -55,9 +55,15 @@ Password: 1234 / 123
 
 -----
 
-###Admin page account:
+### Admin page account:
 ```text
 Email: crabovwik@yandex.ru
 Login: crabovwik
 Password; 1234567
 ```
+
+-----
+
+### New product fields is:
+* Кульность (_cool_percentage)
+* Секретное сообщение (_secret_message)
