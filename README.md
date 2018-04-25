@@ -4,6 +4,8 @@
 
 ## Usage:
 
+### Shop: `localhost/?page_id=4`
+
 ### Environment settings stored in .env file
 
 -----
